@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john@doe.com",
+      "password": "secret",
+      "isAuthenticated": true
+    },
+    {
+      "id": 2,
+      "firstName": "Chuck",
+      "lastName": "Norris",
+      "email": "chuck@norris.com",
+      "password": "secret",
+      "isAuthenticated": false
+    }
+  ]
+}
