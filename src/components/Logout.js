@@ -8,8 +8,6 @@ const Logout = ({ logoutUser }) => (
   </button>
 );
 
-const mapState = ({ currentUser: { id } }) => ({ userId: id });
-
 const mapDispatch = (dispatch, { userId }) => ({
   logoutUser: async () => {
     window.localStorage.removeItem('casinoUser');
@@ -26,6 +24,6 @@ const mapDispatch = (dispatch, { userId }) => ({
 });
 
 export default connect(
-  mapState,
+  null,
   mapDispatch
 )(Logout);

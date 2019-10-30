@@ -6,7 +6,7 @@
       "lastName": "Doe",
       "email": "john@doe.com",
       "password": "secret",
-      "isAuthenticated": true
+      "isAuthenticated": false
     },
     {
       "id": 2,
